@@ -23,11 +23,11 @@ python3 manage.py startapp nameofyourfrontendapp
 python3 manage.py startapp nameofyourbackendapp
 For this example, we are going to call the frontend app: frontend, and the backend app: spotify. The frontend app will handle the frontend and webpage application, and the spotify app will handle the logic for our webpage’s features and API calls. 
 
-**Step 4: **
+**Step 4:**
 In the spotify app, we need to add a few files before we can begin development for our project’s features. We need to create a file to store our credentials, and a util file to handle the logic for our project’s main features. We also need to add to our database a way to store spotify tokens, which are unique for every user. 
 In the frontend app, we need to add a 'src', 'templates', and 'static' folder. These are essential as we are going to install more imports soon. We are going to use a template for the project to simplify the process using React. In src add a components folder. In static add a frontend and css folder.
 
-**Step 5: **
+**Step 5:**
 Go into your frontend directory and type this into your terminal:
 npm init -y
 npm i webpack webpack-cli --save-dev
